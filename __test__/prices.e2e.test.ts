@@ -34,6 +34,5 @@ describe('check Prices', () => {
 
     afterEach(async () => {
         await fakeAssetsRepo.delete(fakeChatId, symbol)
-        jest.clearAllMocks()
     })
 })
